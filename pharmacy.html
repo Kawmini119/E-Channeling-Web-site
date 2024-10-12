@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nisal</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-heartbeat"></i> E-med </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#services">services</a>
+        <a href="#about">about</a>
+        <a href="#doctors">doctors</a>
+        <a href="#book">book</a>
+        <a href="#review">review</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+</header>
+
+<!-- header section ends --> 
+
+<section class="book" id="book">
+
+   
+
+    <div class="row">
+
+        <div class="image">
+            <img src="image/book-img.svg" alt="">
+        </div>
+
+        <form action="index.php" method ="post">
+            <h3></h3>
+            <input type="text" placeholder="owners_name" class="box" name = "owners_name">
+            <input type="number" placeholder="phone_number" class="box" name = "phone_number">
+            <input type="email" placeholder="email" class="box" name = "email">
+            <input type="text" placeholder="pharmacy_name"class="box" name = "pharmacy_name">
+            <input type="submit" value="Register" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+</body>
+</html>
